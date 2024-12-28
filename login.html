@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <title>账号登录</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            outline: none;
+        }
+
+        body {
+            background:url("img/a.jpg");
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }      
+
+        .kuang {
+            display: flex;
+			box-shadow: 0 0 10px rgba(0,0,0,0.3);
+			border-radius: 10px;
+        }
+
+        form {
+            width: 562px;
+            height: 520px;
+            background-color: #fff;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #img-box {
+            width: 330px;
+            height: 520px;
+        }
+
+        #img-box img {
+            height: 100%;
+        }
+
+        #form-body {
+            width: 320px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+
+        #zhdl {
+            color: #7f7f7f;
+            font-size: 50px;
+        }
+
+       
+
+        #border {
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        .border1 {
+            padding: 13px 25px;
+            border: 2px solid #6e6d6d;
+            line-height: 1;
+            border-radius: 20px;
+            margin-bottom: 15px;
+        }
+
+        .border1 input {
+            width: 100%;
+            font-size: 14px;
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }
+
+
+        #button {
+            margin-top: 20px;
+        }
+
+        #login {
+            display: block;
+            width: 100%;
+            color: #fff;
+            font-size: 14px;
+            margin: 0;
+            padding: 14px 40px;
+            border: 0;
+            background-color:#EF8EB8;
+            border-radius: 25px;            
+        }
+
+        #forgot {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        #forgot a {
+            color: #868686;
+            font-size: 12px;
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="kuang">
+        <div id="img-box">
+            <img src="img/5.jpg" alt="">
+        </div>
+        <form action="" method="post">
+            <div id="form-body">             
+					<div id="zhdl">账号登录</div>       
+               <div id="border">
+                    <div class="border1">
+                        <input type="text" placeholder="账号">
+                    </div>
+                    <div class="border1">
+                        <input type="Password" placeholder="密码">
+                    </div>
+                </div>
+                <div id="button">
+                    <button type="submit" id="login">立即登录</button>
+                </div>
+                <div id="forgot">
+                    <a href="#">忘记密码</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

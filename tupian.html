@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			#zhaopian {
+				margin: 0 auto; 
+				width: 70%; 				
+				text-align: center; 
+				position: relative; 
+			}
+
+			#box {
+				display: inline-block; 				
+				margin: 40px; 
+				width: 300px; 
+				height: 300px; 
+				border-radius: 150px; /*设置外边框圆角*/			 
+				box-shadow:0 3px 10px rgba(0, 0, 0, 0.3); /*阴影*/
+				transition:0.5s; 
+				position: relative; 
+				background-color: #FED6DD;
+			}
+
+			#box:hover {
+				transform: translateY(-13px); /*向上平移*/
+				box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+			}
+
+			#box img {
+				max-width: 100%;
+				max-height: 100%; 
+				position: absolute; 
+				top: 0; 
+				left: 0;
+				right: 0; 
+				bottom: 0; 
+				margin: auto; 			 
+				transition:0.3s; 
+				border-radius: 150px;
+			}
+
+			#box:hover img {
+				border-radius: 150px;				
+			}
+			#wz{
+				color:#FED6DD; 
+				text-align: center; 
+			}
+			
+
+		</style>
+	</head>
+	<body>
+		<div id="wz">
+		<h1>介绍一下主要出场人物</h1>
+		</div>
+		<div id="zhaopian">
+			<div id="box">
+				<img src="img/1.jpg" alt="zp">
+				
+				
+			</div>
+			<div id="box">
+				<img src="img/2.jpg" alt="zp">
+			
+				
+			</div>
+			<div id="box">
+				<img src="img/3.jpg" alt="zp">
+				
+				
+			</div>
+			<div id="box">
+				<img src="img/4.jpg" alt="zp">
+				
+				
+			</div>
+		</div>
+		<div id="wz">
+			    
+				<h2>我</h2>
+				<p>制作此网站的主角</p>
+			<h2>祁煜</h2>
+			<p>恋与深空男主角，我最喜欢的人物之一</p>
+			<h2>周深</h2>
+			<p>中国内地男歌手、青年歌唱家，我最喜欢的歌手</p>
+			</div>
+		
+	</body>
+</html>
